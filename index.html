@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="main.png"/></h2>
+            <h5>~Made by LP</h5>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <div class="columns">
+                <div class="column" id="today-column">
+                    <h3>Today</h3>
+                    <ul id="today-list" class="task-list">
+                        <!-- Tasks for today go here -->
+                    </ul>
+                </div>
+                <div class="column" id="tomorrow-column">
+                    <h3>Tomorrow</h3>
+                    <ul id="tomorrow-list" class="task-list">
+                        <!-- Tasks for tomorrow go here -->
+                    </ul>
+                </div>
+                <div class="column" id="yearly-column">
+                    <h3>Yearly Goals</h3>
+                    <ul id="yearly-list" class="task-list">
+                        <!-- Yearly goals go here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
