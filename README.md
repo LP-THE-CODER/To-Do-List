@@ -11,7 +11,7 @@ A simple and intuitive To-Do List App to help you organize your tasks efficientl
 - Mark tasks as completed
 - User-friendly and intuitive interface
 
-## Table of Contents
+## Table of Contents:
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -27,7 +27,7 @@ git clone https://github.com/your-username/to-do-list-app.git
 
 Open index.html in your preferred web browser.
 
-Usage
+usage
 
 Enter a task in the input box and click "Add" to add it to your to-do list.
 Organize tasks into columns for today, tomorrow, and yearly goals.
