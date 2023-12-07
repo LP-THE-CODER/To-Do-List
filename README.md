@@ -1,15 +1,38 @@
-# To-Do-List
-Open index.html in your web browser.
+# To-Do List App
+
+![To-Do List App](.png)
+
+A simple and intuitive To-Do List App to help you organize your tasks efficiently.
+
+## Features
+
+- Add tasks to your to-do list
+- Organize tasks by today, tomorrow, and yearly goals
+- Mark tasks as completed
+- User-friendly and intuitive interface
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+# 1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/to-do-list-app.git
+
+Open index.html in your preferred web browser.
+
 # Usage
-1. Open the app in your web browser.
-2. Enter a task in the input box and click "Add."
-3.Choose the column (Today, Tomorrow, Yearly) for the task.
-4.Click on a task to mark it as completed or click the "X" button to remove it.
+
+Enter a task in the input box and click "Add" to add it to your to-do list.
+Organize tasks into columns for today, tomorrow, and yearly goals.
+Mark tasks as completed by clicking on them.
+Use the "About" and "Creator" buttons to learn more about the app and its creator.
+
 # Contributing
--> Contributions are welcome! If you find any issues or have suggestions, please open an issue or create a pull request.
-
-# License
-->This project is licensed under the MIT License - see the LICENSE file for details.
-
-# Acknowledgments
-->Special thanks to LP for creating this To-Do List App.
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
