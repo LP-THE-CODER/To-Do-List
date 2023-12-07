@@ -1,6 +1,6 @@
 # To-Do List App
 
-![To-Do List App](.png)
+![To-Do List App](https://github.com/LP-THE-CODER/To-Do-List/blob/main/Screenshot%202023-12-07%20175200.png)
 
 A simple and intuitive To-Do List App to help you organize your tasks efficiently.
 
