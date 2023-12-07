@@ -59,5 +59,32 @@ function showTask() {
     tomorrowList.innerHTML = localStorage.getItem("tomorrowData");
     yearlyList.innerHTML = localStorage.getItem("yearlyData");
 }
+// Add these functions to your existing script.js file
+
+function openAboutModal() {
+    alert("To-Do List App\n\nThis app allows you to organize your tasks efficiently. Add tasks, mark them as completed, and manage daily, future, and long-term goals with ease.");
+}
+
+function openCreatorModal() {
+    alert("Creator: Lakshmi Prasanna (LP)\n\nLP is a self-motivated developer.");
+}
+function showAbout() {
+    document.getElementById('aboutModal').style.display = 'block';
+}
+
+function showCreator() {
+    document.getElementById('creatorModal').style.display = 'block';
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = 'none';
+}
+
+// Close modals if the user clicks outside the modal
+window.onclick = function (event) {
+    if (event.target.className === 'modal') {
+        event.target.style.display = 'none';
+    }
+}
 
 showTask();
