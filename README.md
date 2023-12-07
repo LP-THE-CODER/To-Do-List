@@ -27,12 +27,12 @@ git clone https://github.com/your-username/to-do-list-app.git
 
 Open index.html in your preferred web browser.
 
-# Usage
+#Usage
 
 Enter a task in the input box and click "Add" to add it to your to-do list.
 Organize tasks into columns for today, tomorrow, and yearly goals.
 Mark tasks as completed by clicking on them.
 Use the "About" and "Creator" buttons to learn more about the app and its creator.
 
-# Contributing
+#Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
